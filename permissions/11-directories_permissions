@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a-x,u=rwX,go=rX /root
+chmod a-x,u=rwX,go=rX /root/shell/permissions
