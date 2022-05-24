@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a-x,u=rwX,go=rX /root/shell/permissions
+chmod 755 dir* .
