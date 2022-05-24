@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a=X,u=rwx,go=rx ./dir*
+chmod -R a=X,u=rwx,go=rx ./dir*
