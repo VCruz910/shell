@@ -1,2 +1,2 @@
 #!/bin/bash
-sort list|uniq -Dw 3 list
+sort list|uniq 
