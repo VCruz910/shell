@@ -1,2 +1,2 @@
 #!/bin/bash
-find /root/shell/io_redirections_and_filters -type d|wc -l
+find . -type d|wc -l
