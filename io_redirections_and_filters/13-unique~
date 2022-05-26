@@ -1,2 +1,0 @@
-#!/bin/bash
-sort list|unique -w 1
