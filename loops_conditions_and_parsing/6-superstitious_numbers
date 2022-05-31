@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Loops from 1 to 20 and displays bad luck from China on the 4th iteration, bad luck from Japan on the 9th, bad luck from Italy on the 17th, Best School on the rest iterations
 counter=1
-while [ "$counter" -lt 20 ]
+while [ "$counter" -lt 21 ]
 do
         echo "$counter"
       case "$counter" in
