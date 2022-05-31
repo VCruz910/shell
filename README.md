@@ -1,1 +1,2 @@
-This is what these commands do in this directory
+Testint Vagrant Connection with Github
+
