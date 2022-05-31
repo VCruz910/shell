@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Loops "Best School" ten times with the while loop
+n=1; while [ "$n" -le 10 ]; do echo "Best School" $(( n++ )); done
+
