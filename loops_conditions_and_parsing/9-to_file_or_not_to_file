@@ -22,7 +22,7 @@ do
 		if [ -f "$file" ]
 		then
 
-			echo "school file is a regular file"
+			echo "school is a regular file"
 
 		fi
 
