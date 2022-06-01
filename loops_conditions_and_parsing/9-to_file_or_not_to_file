@@ -5,8 +5,8 @@ for file in *
 do
 	if [ "$file" == "school" ]
 	then
-		echo "school file exists"
 		((F=1))
+		echo "school file exists"
 		if [ -s "$file" ]
 		then
 			echo "school file is not empty"
