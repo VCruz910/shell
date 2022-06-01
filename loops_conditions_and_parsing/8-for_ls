@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #List content of the current directory
-for i in ls /home/vagrant/shell/loops_conditions_and_parsing/*
+for i in *
 do
-	echo "$i"
+	echo "$i"|cut -d '-' -f2
 	
 done
