@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#List content of the current directory
+for i in ls /home/vagrant/shell/loops_conditions_and_parsing/*
+do
+	echo "$i"
+	
+done
