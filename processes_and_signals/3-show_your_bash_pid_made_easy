@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#Displays the PID, along with the process name, of processes whose name contain the word bash without using ps.
-find /proc -mindepth 2 -maxdepth 2 -name exe -lname '*/bash' -printf %h\\n 2>/dev/null|sed s+^/proc/++
+#Displays the PID, along with the process name, of processes whose name contain the word bash without using the ps command.
+pgrep -l "bash"
+
 
